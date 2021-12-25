@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './pages/Home';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './Routes';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>,
   document.getElementById('root'),
 );

@@ -1,0 +1,45 @@
+// @import '../../scss/custom.scss';
+
+$primary-color: #172755;
+
+$primary-link: #eeeef6;
+$secondary-link: #d0d0d8;
+
+$primary-button: #EF2A82;
+
+.navbar-container {
+  background-color: $primary-color;
+  box-shadow: 0 1px 2px #12214D;
+}
+
+.navbar-text-logo {
+  font-weight: bold;
+}
+
+.navbar-link{
+  color: $primary-link;
+  text-decoration: none;
+  margin: 0 15px 0 15px;
+}
+
+.navbar-link:hover{
+  color: $secondary-link;
+}
+
+.navbar-button-rounded {
+  width: 9rem;
+  padding: 4px;
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: $primary-button;
+  border-width: 1.99px;
+  border-radius: 50px;
+}
+
+.navbar-button-rounded:hover {
+  background-color: $primary-button;
+  color: white;
+  transition: 0.2s;
+}
